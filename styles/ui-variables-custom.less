@@ -9,7 +9,7 @@
 
 // Color guards -----------------
 @ui-s-h: hue(@ui-syntax-color);
-.ui-hue() when (@ui-s-h = 0) { @ui-hue: 220; } // Use blue hue when no saturation
+.ui-hue() when (@ui-s-h = 0) { @ui-hue: 307; } // Use pink hue when no saturation
 .ui-hue() when (@ui-s-h > 0) { @ui-hue: @ui-s-h; }
 .ui-hue();
 
@@ -22,6 +22,9 @@
 @ui-border: darken(@level-3-color, 6%);
 
 
+@ui-hue: 297;
+@ui-fg: hsl(307, 98%, 37%);
+@ui-bg: hsl(308, 100%, 89%);
 
 
 // Custom variables

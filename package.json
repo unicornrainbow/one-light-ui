@@ -1,15 +1,15 @@
 {
-  "name": "one-light-ui",
+  "name": "pink-pansy-ui",
   "theme": "ui",
   "version": "1.10.5",
-  "description": "Atom One light UI theme",
+  "description": "Pink pansy in my UI, whaaaat?",
   "keywords": [
     "light",
     "adaptive",
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/atom/one-light-ui",
+  "repository": "https://github.com/unicornrainbow/pink-pansy-ui",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"
